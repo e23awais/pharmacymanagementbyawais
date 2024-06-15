@@ -1,0 +1,23 @@
+            - name: Expo Preview Action
+  # You may pin to the exact commit or the version.
+  # uses: expo/expo-preview-action@aee277e1d208afb93e403933b8ee0221057be605
+  uses: expo/expo-preview-action@v1.2.2
+  with:
+    # The name of the update channel
+    channel: 
+    # The deep link scheme
+    scheme: # optional
+    # The type of your project. Available options `development-client` or `expo-go
+    project-flavor: # optional
+    # The path to the folder containing `package.json`
+    project-root: # optional
+    # The path to the expo-cli
+    expo-cli-path: # optional
+    # The path to the `AndroidManifest.xml`
+    android-manifest-path: # optional
+    # The path to the `Info.plist`
+    ios-info-plist-path: # optional
+    # GitHub token for GitHub API requests. You shouldn't need to set this themselves, but we recommend using a service account with the least permissions necessary if you want to do it. [Learn more about creating and using encrypted secrets](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)
+
+    token: # default is ${{ github.token }}
+          
