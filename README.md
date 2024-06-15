@@ -1,31 +1,11 @@
-# pharmacymanagementbyawais
-Pharmacy management system that contains all medicines , managers, pharmacists , cashiers data and provides CRUD for all , Generates invoice having specific features  for expirydate . There is link between whole project also have authentication.
+# Sample Snack app
 
-Features :
+Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
 
-Add , Update delete Search 
-1-Medicines
-2-Manager
-3-Pharmacist
-4-Cashier 
+When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
 
-Links :
+All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
 
-1-Manager-Pharmacist
-2-Manager-Cashier
-3-Cashier-Invoice
+If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
 
-Specific Feature :
-
-1-Expiry Date month
-Flash Orange
-2-Expiry Date crossed
-Flash Red
-3-Expiry Date more than month away
-Flash Green
-
-Stores :
-
-1-Medicine Data stock
-2-Generates Invoice
-3-Sales History
+Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
